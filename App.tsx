@@ -71,7 +71,7 @@ const App: React.FC = () => {
         renderItem={renderItem}
         keyExtractor={item => item._id}
         onEndReached={handleLoadMore}
-        onEndReachedThreshold={0.1} // Adjust this threshold as needed
+        onEndReachedThreshold={0.1} 
       />
       {isLoading && <Text>Loading...</Text>}
     </View>
