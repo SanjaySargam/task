@@ -4,7 +4,7 @@ import { ListItem } from 'react-native-elements';
 import axios from 'axios';
 
 const API_URL = 'http://13.233.95.158:5000/api_get_my_events/-1';
-const PAGE_SIZE = 4; // Adjust this to the number of items you want to load per page
+const PAGE_SIZE = 4; 
 
 interface Event {
   _id: string;
